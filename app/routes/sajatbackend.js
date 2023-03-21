@@ -139,7 +139,7 @@ module.exports = function(app) {
      
        })
 
-       app.post('/receptfeltoltes', (req, res) => {
+       app.post('/Receptfeltoltes', (req, res) => {
         dbconn()
          
          let parancs="INSERT INTO receptek  VALUES (NULL, '"+req.body.bevitel1+"','"+req.body.bevitel2+"','"+req.body.bevitel3+"',"+req.body.bevitel4+", "+req.body.bevitel5+",'"+req.body.bevitel6+"')"
