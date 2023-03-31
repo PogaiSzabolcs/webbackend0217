@@ -22,7 +22,8 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
-
+CREATE DATABASE IF NOT EXISTS `s55_db` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `s55_db`;
 --
 -- Tábla szerkezet ehhez a táblához `etel`
 --
